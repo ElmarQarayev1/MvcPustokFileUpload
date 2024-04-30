@@ -1,0 +1,75 @@
+﻿<Properties StartupConfiguration="{838B4C8E-E59C-4E24-B508-A0358A019A2B}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MvcPustok/Areas/Manage/Views/Author/Index.cshtml">
+    <Files>
+      <File FileName="MvcPustok/Program.cs" />
+      <File FileName="MvcPustok/appsettings.json" />
+      <File FileName="MvcPustok/Views/_ViewImports.cshtml" />
+      <File FileName="MvcPustok/Views/_ViewStart.cshtml" />
+      <File FileName="MvcPustok/Views/Home/Index.cshtml" />
+      <File FileName="MvcPustok/Controllers/HomeController.cs" />
+      <File FileName="MvcPustok/Properties/launchSettings.json" />
+      <File FileName="MvcPustok/Models/BookTags.cs" />
+      <File FileName="MvcPustok/Models/BookImages.cs" />
+      <File FileName="MvcPustok/Data/AppDbContext.cs" />
+      <File FileName="MvcPustok/Views/Shared/_Layout.cshtml" />
+      <File FileName="MvcPustok/Models/Author.cs" />
+      <File FileName="MvcPustok/Models/Book.cs" />
+      <File FileName="MvcPustok/Models/Genre.cs" />
+      <File FileName="MvcPustok/Models/Slider.cs" />
+      <File FileName="MvcPustok/Models/Tag.cs" />
+      <File FileName="MvcPustok/Models/BaseEntity.cs" />
+      <File FileName="MvcPustok/ViewModels/HomeViewModel.cs" />
+      <File FileName="MvcPustok/Models/Feature.cs" />
+      <File FileName="MvcPustok/Views/Shared/_BookTabContentPartial.cshtml" />
+      <File FileName="MvcPustok/wwwroot/js/main.js" />
+      <File FileName="MvcPustok/Controllers/BookController.cs" />
+      <File FileName="MvcPustok/Views/Shared/_Layout.cshtml.css" />
+      <File FileName="MvcPustok/Services/LayoutService.cs" />
+      <File FileName="MvcPustok/Models/Setting.cs" />
+      <File FileName="MvcPustok/wwwroot/js/ajax-mail.js" />
+      <File FileName="MvcPustok/Areas/Manage/Controllers/DashboardController.cs" />
+      <File FileName="MvcPustok/Areas/Manage/Views/Shared/_Layout.cshtml" />
+      <File FileName="MvcPustok/Areas/Manage/Views/_ViewStart.cshtml" />
+      <File FileName="MvcPustok/Areas/Manage/Views/_ViewImports.cshtml" />
+      <File FileName="MvcPustok/Areas/Manage/ViewModels/PaginatedList.cs" />
+      <File FileName="MvcPustok/Areas/Manage/Controllers/GenreController.cs" />
+      <File FileName="MvcPustok/Areas/Manage/Views/Genre/Index.cshtml" />
+      <File FileName="MvcPustok/Areas/Manage/Views/Genre/Create.cshtml" />
+      <File FileName="MvcPustok/Pages/_ValidationScriptsPartial.cshtml" />
+      <File FileName="MvcPustok/Areas/Manage/Controllers/AuthorController.cs" />
+      <File FileName="MvcPustok/Areas/Manage/Views/Author/Index.cshtml" Line="17" Column="22" />
+      <File FileName="MvcPustok/Areas/Manage/Views/Author/Create.cshtml" />
+      <File FileName="MvcPustok/Areas/Manage/Controllers/SliderController.cs" />
+      <File FileName="MvcPustok/Areas/Manage/Views/Slider/Index.cshtml" />
+      <File FileName="MvcPustok/Areas/Manage/Views/Slider/Create.cshtml" />
+      <File FileName="MvcPustok/Areas/Manage/Controllers/BookController.cs" />
+      <File FileName="MvcPustok/Areas/Manage/Views/Book/Index.cshtml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MvcPustok" expanded="True">
+            <Node name="MvcPustok" expanded="True">
+              <Node name="Areas" expanded="True" selected="True">
+                <Node name="Manage" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="ViewModels" expanded="True" />
+                  <Node name="Views" expanded="True">
+                    <Node name="Author" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MvcPustok PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
