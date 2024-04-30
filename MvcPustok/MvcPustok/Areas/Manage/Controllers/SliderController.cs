@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MvcPustok.Areas.Manage.ViewModels;
@@ -38,11 +39,11 @@ namespace MvcPustok.Areas.Manage.Controllers
             if (!ModelState.IsValid) return View();
 
 
-            if (slider.ImageFile.Length > 2 * 1024 * 1024)
-            {
-                ModelState.AddModelError("ImageFile", "File must be less or equal than 2MB");
-                return View();
-            }
+            //if (slider.ImageFile.Length > 2 * 1024 * 1024)
+            //{
+            //    ModelState.AddModelError("ImageFile", "File must be less or equal than 2MB");
+            //    return View();
+            //}
 
             if (slider.ImageFile.ContentType != "image/png" && slider.ImageFile.ContentType != "image/jpeg")
             {
@@ -105,14 +106,24 @@ namespace MvcPustok.Areas.Manage.Controllers
             }
 
             _context.SaveChanges();
-
-
-
             return RedirectToAction("index");
-
-
         }
 
+        public IActionResult Delete(int id)
+        {
+            Slider slider = _context.Sliders.FirstOrDefault(m => m.Id == id);
+
+            if (slider is null) return RedirectToAction("Error", "NotFound");
+
+            string deletedFile = slider.ImageName;
+
+            FileManager.Delete(_env.WebRootPath, "uploads/slider", deletedFile);
+
+            _context.Sliders.Remove(slider);
+
+            _context.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
     }
 }
-

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using MvcPustok.Helpers;
 
 namespace MvcPustok.Models
 {
@@ -19,6 +20,7 @@ namespace MvcPustok.Models
         [MaxLength(100)]
         public string? ImageName { get; set; }
         [NotMapped]
+        [FileSize(2*1024*1024)]
         public IFormFile? ImageFile { get; set; }
         public int Order { get; set; }
     }

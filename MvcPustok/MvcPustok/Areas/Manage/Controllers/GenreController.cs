@@ -31,6 +31,7 @@ namespace MvcPustok.Areas.Manage.Controllers
         {
             if (!ModelState.IsValid)
             {
+
                 return View(genre);
             }
 
@@ -76,7 +77,6 @@ namespace MvcPustok.Areas.Manage.Controllers
 
             return RedirectToAction("index");
         }
-
 
     }
 }

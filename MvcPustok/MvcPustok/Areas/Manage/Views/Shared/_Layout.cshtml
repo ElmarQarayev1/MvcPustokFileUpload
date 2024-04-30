@@ -69,13 +69,13 @@
                     <span>Sliders</span>
                 </a>
             </li>
+
             <li class="nav-item">
                 <a class="nav-link" asp-controller="book" asp-action="index">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Books</span>
                 </a>
             </li>
-
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 
@@ -361,7 +361,8 @@
 
     <!-- Custom scripts for all pages-->
     <script src="~/manage/assets/js/sb-admin-2.min.js"></script>
-
+    <script src="~/manage/assets/js/delete.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Page level plugins -->
     @RenderSection("scripts", required: false)
 

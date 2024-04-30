@@ -37,11 +37,10 @@
                             </td>
                             <td>
                                 <a class="btn btn-warning" asp-action="edit" asp-route-id="@item.Id">Edit</a>
-                                <a class="btn btn-danger" href="#">Delete</a>
+                                <a class="btn btn-danger deleted" asp-controller="slider" asp-action="delete" asp-route-id="@item.Id">Delete</a>
                             </td>
                         </tr>
                     }
-
                 </tbody>
             </table>
             <nav aria-label="..." class="d-flex justify-content-center">

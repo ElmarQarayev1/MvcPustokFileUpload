@@ -677,6 +677,10 @@
       "PackagePath": "staticwebassets/manage/assets/img/undraw_rocket.svg"
     },
     {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokFileUpload/MvcPustok/MvcPustok/wwwroot/manage/assets/js/delete.js",
+      "PackagePath": "staticwebassets/manage/assets/js/delete.js"
+    },
+    {
       "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokFileUpload/MvcPustok/MvcPustok/wwwroot/manage/assets/js/demo/chart-area-demo.js",
       "PackagePath": "staticwebassets/manage/assets/js/demo/chart-area-demo.js"
     },
@@ -7973,8 +7977,16 @@
       "PackagePath": "staticwebassets/manage/assets/vendor/jquery/jquery.slim.min.map"
     },
     {
-      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokFileUpload/MvcPustok/MvcPustok/wwwroot/uploads/slider/b1938fc3-6a9f-4e1f-b7fd-ba95cc2e142fhome-4-slider-1.jpg",
-      "PackagePath": "staticwebassets/uploads/slider/b1938fc3-6a9f-4e1f-b7fd-ba95cc2e142fhome-4-slider-1.jpg"
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokFileUpload/MvcPustok/MvcPustok/wwwroot/uploads/slider/559ff00c-69a3-40ed-9a7d-43626c581217home-3-slider-1.jpg",
+      "PackagePath": "staticwebassets/uploads/slider/559ff00c-69a3-40ed-9a7d-43626c581217home-3-slider-1.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokFileUpload/MvcPustok/MvcPustok/wwwroot/uploads/slider/647478a0-8904-43b3-99d0-8d41e103d388best-seller-bg.jpg",
+      "PackagePath": "staticwebassets/uploads/slider/647478a0-8904-43b3-99d0-8d41e103d388best-seller-bg.jpg"
+    },
+    {
+      "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokFileUpload/MvcPustok/MvcPustok/wwwroot/uploads/slider/9e8d723c-d770-499e-9fb1-8fdea029141fpromo-banner-small-with-text.jpg",
+      "PackagePath": "staticwebassets/uploads/slider/9e8d723c-d770-499e-9fb1-8fdea029141fpromo-banner-small-with-text.jpg"
     },
     {
       "Id": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokFileUpload/MvcPustok/MvcPustok/wwwroot/uploads/slider/e1836938-be8a-46dc-a7c3-987cca0a146bhome-2-slider-1.jpg",

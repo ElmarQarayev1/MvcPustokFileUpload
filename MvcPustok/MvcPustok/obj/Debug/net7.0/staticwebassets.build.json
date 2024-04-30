@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d1TGxUYz+Gi4gmdjkGgSKq8nL0MCNwddMz4wo0J/6Do=",
+  "Hash": "EsSvqlTVz25btG3MJmlnM344G6FyqN8EePDrdDPu8EA=",
   "Source": "MvcPustok",
   "BasePath": "_content/MvcPustok",
   "Mode": "Default",
@@ -2905,6 +2905,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/manage/assets/img/undraw_rocket.svg"
+    },
+    {
+      "Identity": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokFileUpload/MvcPustok/MvcPustok/wwwroot/manage/assets/js/delete.js",
+      "SourceId": "MvcPustok",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokFileUpload/MvcPustok/MvcPustok/wwwroot/",
+      "BasePath": "_content/MvcPustok",
+      "RelativePath": "manage/assets/js/delete.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/manage/assets/js/delete.js"
     },
     {
       "Identity": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokFileUpload/MvcPustok/MvcPustok/wwwroot/manage/assets/js/demo/chart-area-demo.js",
@@ -33915,12 +33932,12 @@
       "OriginalItemSpec": "wwwroot/manage/assets/vendor/jquery/jquery.slim.min.map"
     },
     {
-      "Identity": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokFileUpload/MvcPustok/MvcPustok/wwwroot/uploads/slider/b1938fc3-6a9f-4e1f-b7fd-ba95cc2e142fhome-4-slider-1.jpg",
+      "Identity": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokFileUpload/MvcPustok/MvcPustok/wwwroot/uploads/slider/559ff00c-69a3-40ed-9a7d-43626c581217home-3-slider-1.jpg",
       "SourceId": "MvcPustok",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokFileUpload/MvcPustok/MvcPustok/wwwroot/",
       "BasePath": "_content/MvcPustok",
-      "RelativePath": "uploads/slider/b1938fc3-6a9f-4e1f-b7fd-ba95cc2e142fhome-4-slider-1.jpg",
+      "RelativePath": "uploads/slider/559ff00c-69a3-40ed-9a7d-43626c581217home-3-slider-1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33929,7 +33946,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/uploads/slider/b1938fc3-6a9f-4e1f-b7fd-ba95cc2e142fhome-4-slider-1.jpg"
+      "OriginalItemSpec": "wwwroot/uploads/slider/559ff00c-69a3-40ed-9a7d-43626c581217home-3-slider-1.jpg"
+    },
+    {
+      "Identity": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokFileUpload/MvcPustok/MvcPustok/wwwroot/uploads/slider/647478a0-8904-43b3-99d0-8d41e103d388best-seller-bg.jpg",
+      "SourceId": "MvcPustok",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokFileUpload/MvcPustok/MvcPustok/wwwroot/",
+      "BasePath": "_content/MvcPustok",
+      "RelativePath": "uploads/slider/647478a0-8904-43b3-99d0-8d41e103d388best-seller-bg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/slider/647478a0-8904-43b3-99d0-8d41e103d388best-seller-bg.jpg"
+    },
+    {
+      "Identity": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokFileUpload/MvcPustok/MvcPustok/wwwroot/uploads/slider/9e8d723c-d770-499e-9fb1-8fdea029141fpromo-banner-small-with-text.jpg",
+      "SourceId": "MvcPustok",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokFileUpload/MvcPustok/MvcPustok/wwwroot/",
+      "BasePath": "_content/MvcPustok",
+      "RelativePath": "uploads/slider/9e8d723c-d770-499e-9fb1-8fdea029141fpromo-banner-small-with-text.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/slider/9e8d723c-d770-499e-9fb1-8fdea029141fpromo-banner-small-with-text.jpg"
     },
     {
       "Identity": "/Users/elmar/Desktop/CodeAcademy/MVC/MvcPustokFileUpload/MvcPustok/MvcPustok/wwwroot/uploads/slider/e1836938-be8a-46dc-a7c3-987cca0a146bhome-2-slider-1.jpg",
