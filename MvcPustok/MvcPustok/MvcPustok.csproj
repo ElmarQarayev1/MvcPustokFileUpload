@@ -24,6 +24,7 @@
     <None Remove="Areas\Manage\Views\Author\" />
     <None Remove="Areas\Manage\Views\Slider\" />
     <None Remove="Areas\Manage\Views\Book\" />
+    <None Remove="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -44,6 +45,9 @@
     <Folder Include="Areas\Manage\Views\Author\" />
     <Folder Include="Areas\Manage\Views\Slider\" />
     <Folder Include="Areas\Manage\Views\Book\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="wwwroot\uploads\" />
+    <Folder Include="wwwroot\uploads\slider\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.18" />
@@ -60,5 +64,7 @@
     <Content Remove="wwwroot\manage\" />
     <Content Remove="wwwroot\manage\assets\" />
     <Content Remove="wwwroot\manage\assets\vendor\" />
+    <Content Remove="wwwroot\uploads\" />
+    <Content Remove="wwwroot\uploads\slider\" />
   </ItemGroup>
 </Project>

@@ -11,17 +11,15 @@
     </div>
     <div class="row">
         <div class="col-md-12 mx-auto">
-            <table class="table table-hover">
+            <table class="table">
                 <thead>
                     <tr>
                         <th scope="col">#</th>
-                        <th scope="col">Title1</th>
-                        <th scope="col">Title2</th>
-                        <th scope="col">BtnText</th>
+                        <th scope="col">Title 1</th>
+                        <th scope="col">Title 2</th>
                         <th scope="col">BtnUrl</th>
-                        <th scope="col">Desc</th>
+                        <th scope="col">BtnText</th>
                         <th scope="col">Image</th>
-                        <th scope="col">Order</th>
                         <th scope="col">Action</th>
                     </tr>
                 </thead>
@@ -32,17 +30,18 @@
                             <th scope="row">@(++order)</th>
                             <td>@item.Title1</td>
                             <td>@item.Title2</td>
-                            <td>@item.BtnText</td>
                             <td>@item.BtnUrl</td>
-                            <td>@item.Desc</td>
-                            <td>@item.Image</td>
-                            <td>@item.Order</td>
+                            <td>@item.BtnText</td>
                             <td>
-                                <a class="btn btn-warning" style="width:60px;" href="#">Edit</a>
-                                <a class="btn btn-danger" style="width:70px;" href="#">Delete</a>
+                                <img width="150" src="~/uploads/slider/@item.ImageName" alt="@item.Title1" />
+                            </td>
+                            <td>
+                                <a class="btn btn-warning" asp-action="edit" asp-route-id="@item.Id">Edit</a>
+                                <a class="btn btn-danger" href="#">Delete</a>
                             </td>
                         </tr>
                     }
+
                 </tbody>
             </table>
             <nav aria-label="..." class="d-flex justify-content-center">

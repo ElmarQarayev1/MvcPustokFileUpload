@@ -5,8 +5,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MvcPustok.Models
 {
-	public class Book:BaseEntity
-	{
+	public class Book : AuditEntity
+    {
         [MaxLength(50)]
         [MinLength(10)]
         public string Name { get; set; }
